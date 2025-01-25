@@ -59,9 +59,10 @@ export default function Index() {
         <Filter/>
         </View>
 
-        <View className="flex flex-row gap-5 mx-1">
+        <View className="flex flex-row gap-5 mx-1 ">
           <Cards />
           <Cards />
+         
         </View>
       </ScrollView>
     </SafeAreaView>
