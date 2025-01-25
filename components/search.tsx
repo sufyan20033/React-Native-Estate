@@ -12,18 +12,16 @@ const Search = () => {
   const [search, setSearch] = useState(params.query || '');
 
   // Fixed the syntax of useDebouncedCallback
-  const debouncedSearch = useDebouncedCallback((text: string) => {
-    Router.replace({ pathname: path, params: { query: text } });
-  }, 500);
+  
 
   const handleSearch = (text: string) => {
     setSearch(text);
-    debouncedSearch(text);
+    // debouncedSearch(text);
   };
 
   return (
-    <SafeAreaView className="flex-1">
-      {/* Search Bar */}
+    <SafeAreaView>
+      
       <View className="my-4 flex flex-row items-center justify-between w-full px-5 border border-primary-100 rounded-lg">
         <View className="flex-1 flex flex-row items-center justify-start bg-white rounded-xl">
           <Image className="w-6 h-6 mx-3" source={icons.search} />
