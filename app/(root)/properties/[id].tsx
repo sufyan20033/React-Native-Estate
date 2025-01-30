@@ -40,8 +40,8 @@ const Property = () => {
                   <Text className='text-black font-rubik-Medium items-center  bg-gray-200 rounded-3xl px-4 py-1'>200 Sq. Ft</Text>
                 </View>
 
-                <View className='mt-6'>
-                  <Text className='font-rubik-bold text-2xl mt-3'>Agent</Text>
+                <View className='mt-9 border-t  border-primary-200'>
+                  <Text className='font-rubik-bold text-2xl mt-7'>Agent</Text>
                 </View>
 
                 <View className="flex flex-row items-center justify-between mt-4 mr-3">
@@ -59,13 +59,13 @@ const Property = () => {
                     </TouchableOpacity>
                   </View>
                 </View>
-                <View className='mt-6'>
-                  <Text className='font-rubik-bold text-2xl mt-3'>Overview</Text>
+                <View className='mt-9 border-t  border-primary-200'>
+                  <Text className='font-rubik-bold text-2xl mt-7' >Overview</Text>
                   <Text className='font-rubik-Light text-base text-gray-600 pr-6 pl-1 pt-2'>This stunning apartment offers 2 spacious bedrooms, 3 modern bathrooms, and spans 200 square feet, providing a perfect blend of comfort and style. The highlight is its breathtaking sea-facing gallery, offering serene views and refreshing breezes. The interior features contemporary finishes, ample natural light, and a cozy ambiance. Ideal for those seeking luxury living with a picturesque coastal vibe.</Text>
                 </View>
 
-                <View className='mt-6 flex flex-col'>
-                  <Text className='font-rubik-bold text-2xl mt-3'>Facilities</Text>
+                <View className='mt-6 flex flex-col border-t border-primary-200'>
+                  <Text className='font-rubik-bold text-2xl mt-8'>Facilities</Text>
                   <View className='flex flex-row justify-between mr-5'>
                     <View className='flex-col justify-center items-center mt-4 '>
                       <View className='bg-gray-300 rounded-3xl size-11 items-center justify-center'>
@@ -128,8 +128,8 @@ const Property = () => {
 
                 </View>
 
-                <View className='flex flex-col mt-6'>
-                  <Text className='font-rubik-bold text-2xl mt-3'>Gallery</Text>
+                <View className='flex flex-col mt-6 border-t  border-primary-200'>
+                  <Text className='font-rubik-bold text-2xl mt-7'>Gallery</Text>
                   <View className='size-120  flex flex-row w-full gap-1 justify-center items-center mt-6 mb-5'>
                     <Image className="size-40  rounded-3xl mx-1" source={images.japan} />
                     <Image className="size-40 rounded-3xl" source={images.newYork} />
@@ -138,8 +138,8 @@ const Property = () => {
                 </View>
 
 
-                <View className='flex flex-col mt-6'>
-                  <Text className='font-rubik-bold text-2xl mt-3'>Location</Text>
+                <View className='flex flex-col mt-9 border-t  border-primary-200'>
+                  <Text className='font-rubik-bold text-2xl mt-8'>Location</Text>
                   <View className='flex flex-row mt-4 items-center justify-start'>
                     <Image source={icons.location} className='size-9'/>
                     <Text className='pl-3 text-lg font-rubik-Medium text-gray-600 items-center'>14th Street, Karachi, Pakistan</Text>
@@ -149,8 +149,8 @@ const Property = () => {
                   </View>
                 </View>
 
-                <View>
-                  <Text className='font-rubik-bold text-2xl mt-3 ml-2'>Price</Text>
+                <View className='border-t  border-primary-200 mt-10' >
+                  <Text className='font-rubik-bold text-2xl mt-9 ml-2 '>Price</Text>
                   <View className='flex flex-row items-center justify-between mt-3 mb-6 mr-8 ml-2'>
                     <Text className='font-rubik-bold text-primary-300 text-2xl shadow-black-200'>$12000</Text>
                     <TouchableOpacity className='bg-primary-300 rounded-3xl px-10 py-4 items-center'>
